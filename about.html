@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="dist/styles.css" rel="stylesheet">
+    <title>About</title>
+    <link rel="stylesheet" href="index.css">
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                hans: '#da373d',
+              },
+              backgroundImage: {
+                'welkam': "url('/images/welkam.jpg')"
+              },
+            }
+          }
+        }
+      </script>
+</head>
+<body class="grid grid-cols-12">
+    <header class="col-span-12 top-0 left-0 sticky px-10 py-3 bg-orange-400">
+        <div class="flex justify-between">
+            <div class="flex items-center gap-2">
+                <img src="/images/ctu logo.png" alt="CTU Logo" class="logo">
+                <h1>Cebu Technological University</h1>
+            </div>
+            <nav class="flex items-center">
+                <ul class="flex gap-5">
+                    <li><a class="links" href="index.html">Home</a></li>
+                    <li><a class="links" href="login.html">Login</a></li>
+                    <li><a class="links" href="about.html">About</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="content col-span-12 place-items-center grid grid-cols-12 gap-5 p-5">
+        <div class="col-span-12 flex item-center justify-center p-5">
+            <h1 class="text-5xl font-semibold">My Favorite Fishes</h1>
+        </div>
+        <div class="col-span-4 border p-5 rounded-xl flex flex-col gap-5 w-fit">
+            <div class="flex items-center w-full justify-center">
+                <img src="/images/favorite/betta.jpg" class="w-[450px] h-[250px] rounded-sm" alt="Ctu Oval">
+            </div>
+            <div class="flex flex-col gap-2 w-[450px]">
+                <h1 class="text-3xl font-semibold">Betta Fish</h1>   
+                <p>
+                    Betta fish, also known as Siamese fighting fish, are small, colorful freshwater fish native to Southeast Asia, particularly Thailand and Vietnam. Known for their vibrant hues and long, flowing fins, they are popular pets, especially males, who display striking colors and elaborate fin shapes. Bettas are territorial and often aggressive toward other males, so they should be kept alone or with peaceful species. They thrive in warm water, requiring a clean tank of at least 5 gallons, and are carnivorous, feeding on protein-rich foods like pellets, brine shrimp, and bloodworms. With proper care, bettas can live 3 to 5 years, making them relatively low-maintenance but visually captivating companions.</p>         
+            </div>
+        </div>       
+        <div class="col-span-4 border p-5 rounded-xl flex flex-col gap-5 w-fit">
+            <div class="flex items-center w-full justify-center">
+                <img src="/images/favorite/guppie.jpg" class="w-[450px] h-[250px] rounded-sm" alt="Ctu Oval">
+            </div>
+            <div class="flex flex-col gap-2 w-[450px]">
+                <h1 class="text-3xl font-semibold">Guppie Fish</h1>   
+                <p>
+                    Guppies, also known as Poecilia reticulata, are small, colorful freshwater fish native to South America. They're popular for their vibrant colors, active behavior, and ease of care, making them ideal for beginner aquarists. Guppies come in a wide range of colors and patterns, with males often more brightly colored than females. They're livebearers, meaning they give birth to free-swimming fry instead of laying eggs. Guppies are peaceful, social fish that thrive in groups and can coexist with many other species. They prefer a warm tank with clean water and a diet of high-quality flakes, frozen, or live food. With proper care, guppies can live for about 2 to 3 years.
+                </p>         
+            </div>
+        </div>       
+        <div class="col-span-4 border p-5 rounded-xl flex flex-col h-full gap-5 w-fit">
+            <div class="flex items-center w-full justify-center">
+                <img src="/images/favorite/snugba.jpg" class="w-[450px] h-[250px] rounded-sm" alt="Ctu Oval">
+            </div>
+            <div class="flex flex-col gap-2 w-[450px]">
+                <h1 class="text-3xl font-semibold">Sinugbang Fish</h1>   
+                <p>
+                    Sinugbang fish is yummy
+                </p>         
+            </div>
+        </div>       
+    </div>
+
+    <!-- <footer class="col-span-12 flex border justify-center w-full items-center">
+        <p>© 2024 Article Hub. All rights reserved.</p>
+    </footer> -->
+</body>
+</html>

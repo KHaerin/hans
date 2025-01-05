@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+[data-accordion-target][aria-expanded="true"] {
+  color: inherit; /* Keep the text color consistent */
+  background-color: inherit;
+}
+[data-accordion-target][aria-expanded="false"] {
+  color: black;
+  background-color: inherit;
+}

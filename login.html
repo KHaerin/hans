@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="dist/styles.css" rel="stylesheet">
+    <title>Login - CTU Entrance</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+   
+    <header class="col-span-12 top-0 left-0 sticky px-10 py-3 bg-orange-400">
+        <div class="flex justify-between">
+            <div class="flex items-center gap-2">
+                <img src="/images/ctu logo.png" alt="CTU Logo" class="logo">
+                <h1>Cebu Technological University</h1>
+            </div>
+            <nav class="flex items-center">
+                <ul class="flex gap-5">
+                    <li><a class="links" href="index.html">Home</a></li>
+                    <li><a class="links" href="login.html">Login</a></li>
+                    <li><a class="links" href="about.html">About</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+  
+    <div class="login-container">
+        <h1>Login</h1>
+        <form id="loginForm">
+            <div class="form-group">
+                <label for="username">Username:</label>
+                <input type="text" class="text-black" id="username" name="username" placeholder="Enter your username" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" class="text-black" id="password" name="password" placeholder="Enter your password" required>
+            </div>
+            <button type="submit">Login</button>
+            <p id="errorMessage"></p>
+        </form>
+    </div>
+
+    <footer class="site-footer">
+        <p>© 2024 Article Hub. All rights reserved.</p>
+    </footer>
+
+    <script src="login.js"></script>
+</body>
+</html>
